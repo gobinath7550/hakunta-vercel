@@ -204,7 +204,7 @@ const OurServices = () => {
                 )}
                 <div
                     ref={scrollRef}
-                    className="mt-12 py-3 px-2 mb-6 mx-1 flex lg:flex-wrap items-stretch justify-between gap-10 max-lg:overflow-x-auto max-lg:w-full scrollbar"
+                    className="mt-6 py-6 px-2 mb-6 mx-1 flex lg:flex-wrap items-stretch justify-between gap-10 max-lg:overflow-x-auto max-lg:w-full scrollbar"
                 >
                     <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/e-commerce.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl text-white">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">

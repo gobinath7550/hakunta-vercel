@@ -121,6 +121,10 @@ body {
         }
     }
 
+    .scrollbar {
+        webkit-overflow-scrolling: touch;
+    }
+
     /* Custom scrollbar */
     .scrollbar::-webkit-scrollbar {
         height: 5px;
