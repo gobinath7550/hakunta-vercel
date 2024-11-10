@@ -301,11 +301,11 @@ const OurServices = () => {
 const Testimonials = () => {
     return (
         <div className="bg-[url('/images/bg-review.jpg')] bg-no-repeat bg-cover bg-fixed relative after:absolute after:content-[''] after:inset-0 after:bg-[#161a42]/70">
-            <div className="max-w-7xl m-auto flex flex-col justify-center relative z-10 items-center">
+            <div className="max-w-7xl m-auto flex flex-col justify-center gap-12 relative z-10 items-center">
                 <h2 className="text-2xl mt-12 font-bold text-[#b3f602] capitalize tracking-wide relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-16 after:-bottom-2 after:h-1 after:left-1/2 after:-translate-x-1/2 after:ml-1">
                     {"Testimonials"}
                 </h2>
-                <div className="p-16 lg:flex lg:items-center lg:justify-center gap-10">
+                <div className="lg:p-16 lg:flex lg:items-center lg:justify-center gap-10">
                     <div className="flex items-center justify-center relative w-[260px] h-[300px]">
                         <Image
                             src="/images/bg-frame.png"
