@@ -20,7 +20,7 @@ export default function Header() {
                     href="#"
                     className="w-20 flex ml-1 items-center justify-center bg-white rounded-full"
                 >
-                    <MainLogo />
+                    <MainLogo className={"w-[4.7rem]"} />
                 </a>
                 <div className="hidden lg:flex items-center justify-center gap-10">
                     <nav className="text-[#093876] uppercase text-[0.7rem] font-semibold tracking-widest flex items-center justify-center gap-3">
@@ -62,7 +62,7 @@ export default function Header() {
                         <Search className={"fill-none w-6 stroke-[#093876]"} />
                     </a>
                 </div>
-                <div className="block lg:hidden">
+                <div className="flex items-center justify-center lg:hidden">
                     <button onClick={() => handleOpenMobileMenuButtonClick()}>
                         {isOpened ? (
                             <Close

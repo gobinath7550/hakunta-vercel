@@ -28,7 +28,7 @@ const MainBanner = () => {
                     <div className="absolute z-10 left-7 bottom-7">
                         <div className="relative before:content-[''] before:absolute before:inset-x-0 before:left-1/2 before:-translate-x-1/2 before:block before:h-10 before:w-2 before:bg-white before:-top-8  after:content-[''] after:absolute after:inset-x-0 after:left-1/2 after:-translate-x-1/2 after:block after:h-10 after:w-2 after:bg-white after:bottom-32">
                             <div className="flex flex-col gap-3 items-center justify-start p-4 px-8">
-                                <span className="text-orientation-upright mb-16 uppercase font-extrabold leading-none">
+                                <span className="text-orientation-upright mb-16 uppercase font-extrabold leading-none text-white">
                                     {"Follow US"}
                                 </span>
                                 <a
@@ -204,9 +204,9 @@ const OurServices = () => {
                 )}
                 <div
                     ref={scrollRef}
-                    className="mt-12 py-3 px-2 mb-6 mx-1 flex lg:flex-wrap items-stretch justify-between gap-10 max-lg:overflow-x-auto max-lg:w-full snap-x scrollbar"
+                    className="mt-12 py-3 px-2 mb-6 mx-1 flex lg:flex-wrap items-stretch justify-between gap-10 max-lg:overflow-x-auto max-lg:w-full scrollbar"
                 >
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/e-commerce.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl text-white">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/e-commerce.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl text-white">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
                             <h3 className="text-lg font-bold">
                                 {"E-Commerce"}
@@ -218,7 +218,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/erp.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/erp.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Enterprise Resource Planning"}
@@ -230,7 +230,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/crm.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/crm.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Customer Relationship Management"}
@@ -242,7 +242,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-automation.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-automation.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Business Automation"}
@@ -254,7 +254,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-business-analytics.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-business-analytics.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Business Analytics"}
@@ -266,7 +266,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-data-science.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-data-science.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Data and Analytics"}
@@ -278,7 +278,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-devops.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-devops.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Sustainability Services"}
@@ -290,7 +290,7 @@ const OurServices = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/consulting.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/consulting.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
                             <h3 className="text-lg font-bold">
                                 {"Consulting"}
