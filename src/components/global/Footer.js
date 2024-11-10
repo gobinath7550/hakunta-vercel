@@ -100,7 +100,7 @@ export default function Footer() {
             <div className="border-t-[1px] border-[#505050]">
                 <div className="max-w-7xl m-auto p-6 lg:p-12 lg:px-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 tracking-wide leading-none">
                     <div>
-                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px]">
+                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px] text-white">
                             {"Company"}
                         </h4>
                         <nav className="flex flex-col text-sm mt-7 gap-1 text-[#9a9a9a]">
@@ -172,7 +172,7 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div>
-                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px]">
+                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px] text-white">
                             {"Services"}
                         </h4>
                         <nav className="flex flex-col text-sm mt-7 gap-1 text-[#9a9a9a]">
@@ -270,7 +270,7 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div>
-                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px]">
+                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px] text-white">
                             {"Support"}
                         </h4>
                         <nav className="flex flex-col text-sm mt-7 gap-1 text-[#9a9a9a]">
@@ -329,7 +329,7 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div>
-                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px]">
+                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px] text-white">
                             {"Contact"}
                         </h4>
                         <nav className="flex flex-col text-sm mt-7 gap-2 text-[#9a9a9a]">
@@ -377,7 +377,7 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div>
-                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px]">
+                        <h4 className="font-bold text-md relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-1/6 after:-bottom-2 after:h-1 after:left-0 after:ml-[1px] text-white">
                             {"Newsletter"}
                         </h4>
                         <div className="mt-7">

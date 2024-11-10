@@ -91,7 +91,7 @@ const MainBanner = () => {
                         >
                             <LinkedIn className={"fill-[#093876] w-4"} />
                         </a>
-                        <span className="uppercase font-extrabold leading-none">
+                        <span className="uppercase font-extrabold leading-none text-white">
                             {"Follow US"}
                         </span>
                         <span className="w-[20%] border-[0.2rem]"></span>
@@ -206,9 +206,11 @@ const OurServices = () => {
                     ref={scrollRef}
                     className="mt-12 py-3 px-2 mb-6 mx-1 flex lg:flex-wrap items-stretch justify-between gap-10 max-lg:overflow-x-auto max-lg:w-full snap-x scrollbar"
                 >
-                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/e-commerce.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
+                    <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/e-commerce.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl text-white">
                         <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">{"E-Commerce"}</h3>
+                            <h3 className="text-lg font-bold">
+                                {"E-Commerce"}
+                            </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
                                 {
                                     "Assist businesses in choosing the right platform like Shopify, Magento, WooCommerce, or custom solutions and customize it according to your brand need"
@@ -217,8 +219,8 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/erp.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
                                 {"Enterprise Resource Planning"}
                             </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
@@ -229,8 +231,8 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/crm.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
                                 {"Customer Relationship Management"}
                             </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
@@ -241,8 +243,10 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-automation.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">{"Business Automation"}</h3>
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
+                                {"Business Automation"}
+                            </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
                                 {
                                     "Set up workflows to automate approvals (such as purchase requests, expense claims, or document approvals) with built-in notifications, ensuring tasks move seamlessly through stages"
@@ -251,8 +255,10 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-business-analytics.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">{"Business Analytics"}</h3>
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
+                                {"Business Analytics"}
+                            </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
                                 {
                                     "Use visualization tools like Power BI, Tableau, or Looker to create interactive dashboards that summarize historical data trends, helping stakeholders understand past performance."
@@ -261,8 +267,10 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-data-science.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">{"Data and Analytics"}</h3>
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
+                                {"Data and Analytics"}
+                            </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
                                 {
                                     "Establish policies and standards for data ownership, data quality, and data lifecycle management, ensuring data is consistently accurate and usable across the organization."
@@ -271,8 +279,8 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/bg-devops.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
                                 {"Sustainability Services"}
                             </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
@@ -283,8 +291,10 @@ const OurServices = () => {
                         </div>
                     </div>
                     <div className="snap-center min-h-[326px] max-h-[326px] min-w-[220px] max-w-[220px] bg-[url('/images/consulting.jpg')] bg-no-repeat bg-cover rounded-2xl relative after:absolute after:inset-0  after:content-[''] after:bg-[#3b3d4a] after:mix-blend-multiply after:opacity-60 after:rounded-2xl before:absolute before:bg-gradiant-4 before:inset-0 before:rounded-2xl before:hidden hover:before:block before:opacity-60 before:transition-[background] before:duration-200 transition-all hover:-translate-y-2 hover:shadow-[0_0_0_3px_#77b03b] duration-300 shadow-2xl">
-                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group">
-                            <h3 className="text-lg">{"Consulting"}</h3>
+                        <div className="p-5 text-wrap tracking-wider relative z-10 flex flex-col justify-between h-full overflow-hidden group text-white">
+                            <h3 className="text-lg font-bold">
+                                {"Consulting"}
+                            </h3>
                             <p className="text-xs translate-y-40 group-hover:translate-y-0 transition-transform duration-300 line-clamp-3">
                                 {
                                     "Assess opportunities in new markets, analyze competitors, and design entry strategies to maximize market share and revenue growth."
@@ -305,7 +315,7 @@ const Testimonials = () => {
                 <h2 className="text-2xl mt-12 font-bold text-[#b3f602] capitalize tracking-wide relative after:content-[''] after:absolute after:bg-[#77b03b] after:w-16 after:-bottom-2 after:h-1 after:left-1/2 after:-translate-x-1/2 after:ml-1">
                     {"Testimonials"}
                 </h2>
-                <div className="lg:p-16 lg:flex lg:items-center lg:justify-center gap-10">
+                <div className="lg:p-16 mb-12 lg:flex lg:items-center lg:justify-center gap-10 text-white">
                     <div className="flex items-center justify-center relative w-[260px] h-[300px]">
                         <Image
                             src="/images/bg-frame.png"
