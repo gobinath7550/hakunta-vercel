@@ -16,51 +16,42 @@ export default function Header() {
     return (
         <header className="sticky z-50 top-0 bg-white shadow-lg">
             <div className="flex items-center justify-between p-4 lg:px-8 max-w-7xl m-auto">
-                <a
-                    href="#"
-                    className="w-20 flex ml-1 items-center justify-center bg-white rounded-full"
-                >
-                    <MainLogo className={"w-[4.7rem]"} />
+                <a href="/" className="flex items-center justify-center gap-2">
+                    <span className="w-20">
+                        <MainLogo className={"w-[4.7rem]"} />
+                    </span>
+                    <span className="text-[#093876] text-[1rem] font-bold uppercase tracking-[0.2rem]">
+                        {"Hakunta"}
+                    </span>
                 </a>
                 <div className="hidden lg:flex items-center justify-center gap-10">
-                    <nav className="text-[#093876] uppercase text-[0.7rem] font-semibold tracking-widest flex items-center justify-center gap-3">
-                        <a href="#">
+                    <nav className="text-[#093876] text-[0.8rem] font-semibold tracking-widest flex items-center justify-center gap-3">
+                        <a href="/who-we-are">
                             <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
                                 <span>{"Who we are"}</span>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/services">
                             <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
                                 <span>{"Services"}</span>
                             </div>
                         </a>
-                        <a href="#">
-                            <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
-                                <span>{"Customers"}</span>
-                            </div>
-                        </a>
-                        <a href="#">
+                        <a href="/products">
                             <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
                                 <span>{"Products"}</span>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/careers">
                             <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
                                 <span>{"Careers"}</span>
                             </div>
                         </a>
-                        <a href="#">
+                        <a href="/contact-us">
                             <div className="flex items-center justify-center border-2 border-transparent hover:bg-[#093876] p-2 px-4 rounded-full hover:text-white transition-all hover:shadow-md hover:border-2 hover:border-[#77b03b]">
                                 <span>{"Contact Us"}</span>
                             </div>
                         </a>
                     </nav>
-                    <a
-                        href="#"
-                        className="flex items-center justify-center p-1 hover:mb-1 transition-all"
-                    >
-                        <Search className={"fill-none w-6 stroke-[#093876]"} />
-                    </a>
                 </div>
                 <div className="flex items-center justify-center lg:hidden">
                     <button onClick={() => handleOpenMobileMenuButtonClick()}>
@@ -76,13 +67,13 @@ export default function Header() {
                     </button>
                 </div>
                 <div
-                    className={`grid grid-cols-2 lg:hidden absolute top-0 right-0 w-full overflow-hidden shadow-xl mt-[4.72rem] ${
+                    className={`grid grid-cols-2 lg:hidden absolute top-0 right-0 w-full overflow-hidden shadow-xl mt-[4.55rem] ${
                         isOpenMobileMenu ? "max-h-[500px]" : "max-h-0"
                     } transition-all duration-500 ease-in-out bg-[#093876]`}
                 >
                     <nav className="relative text-[#60dd8e] uppercase text-[0.7rem] font-semibold tracking-widest flex flex-col items-start justify-center gap-4 w-full p-6">
                         <a
-                            href="#"
+                            href="/who-we-are"
                             className="flex gap-2 items-start justify-start border-b-[1px] border-[#60dd8e]"
                         >
                             <span>{"Who we are"}</span>
@@ -108,20 +99,7 @@ export default function Header() {
                             </span>
                         </a>
                         <a
-                            href="#"
-                            className="flex gap-2 items-start justify-start border-b-[1px] border-[#60dd8e]"
-                        >
-                            <span>{"Customers"}</span>
-                            <span>
-                                <LinkArrow
-                                    className={
-                                        "fill-[#60dd8e] w-[0.8rem] h-[0.8rem]"
-                                    }
-                                />
-                            </span>
-                        </a>
-                        <a
-                            href="#"
+                            href="/products"
                             className="flex gap-2 items-start justify-start border-b-[1px] border-[#60dd8e]"
                         >
                             <span>{"Products"}</span>
@@ -134,7 +112,7 @@ export default function Header() {
                             </span>
                         </a>
                         <a
-                            href="#"
+                            href="/careers"
                             className="flex gap-2 items-start justify-start border-b-[1px] border-[#60dd8e]"
                         >
                             <span>{"Careers"}</span>
@@ -147,7 +125,7 @@ export default function Header() {
                             </span>
                         </a>
                         <a
-                            href="#"
+                            href="/contact-us"
                             className="flex gap-2 items-start justify-start border-b-[1px] border-[#60dd8e]"
                         >
                             <span>{"Contact Us"}</span>

@@ -11,7 +11,7 @@ import {
 
 export default function Footer() {
     return (
-        <footer className="bg-gradiant-5">
+        <footer className="bg-gradiant-5 rounded-t-3xl shadow-2xl shadow-black">
             <div className="max-w-7xl m-auto p-6 lg:p-16 lg:px-20 text-[#9a9a9a]">
                 <h4 className="tracking-wider font-thin text-sm text-[#b3f602]">
                     {"Social"}
@@ -105,7 +105,7 @@ export default function Footer() {
                         </h4>
                         <nav className="flex flex-col text-sm mt-7 gap-1 text-[#9a9a9a]">
                             <a
-                                href="#"
+                                href="/about-us"
                                 className="transition-all w-fit after:transition-all hover:text-white relative after:content-[''] after:absolute after:bg-white after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
                             >
                                 <span>{"About Us"}</span>
@@ -118,7 +118,7 @@ export default function Footer() {
                                 </span>
                             </a>
                             <a
-                                href="#"
+                                href="/careers"
                                 className="transition-all w-fit after:transition-all hover:text-white relative after:content-[''] after:absolute after:bg-white after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
                             >
                                 <span>{"Careers"}</span>
@@ -404,7 +404,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="max-w-7xl m-auto text-center text-xs p-6 text-[#9a9a9a] tracking-wider">
-                <span>{"©2024 Hakunta Info Tech Private Limited"}</span>
+                <span>{"©2024 Hakunta Consultancy Services"}</span>
             </div>
         </footer>
     );
