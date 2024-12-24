@@ -146,7 +146,7 @@ const OurGoals = () => {
                     </span>
                 </h2>
             </div>
-            <div className="p-6 pt-0 relative">
+            <div className="p-6 pt-0 pb-12 relative">
                 <div className="absolute inset-x-0 hidden xl:px-44 top-8 lg:block md:px-20 lg:px-28">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -247,7 +247,7 @@ const AboutUsCaption = () => {
                             </p>
                             <a
                                 href="/about-us"
-                                className="mt-8 transition-all w-fit after:transition-all text-[#3d53aa] relative after:content-[''] after:absolute after:bg-[#3d53aa] after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
+                                className="mt-4 transition-all w-fit after:transition-all text-[#3d53aa] relative after:content-[''] after:absolute after:bg-[#3d53aa] after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
                             >
                                 <span>{"Learn more"}</span>
                             </a>
@@ -712,7 +712,7 @@ const OurTechnologies = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="md:w-1/2 p-6 pt-0">
+                    <div className="md:w-1/2 p-6">
                         <div className="flex justify-center flex-wrap gap-5 lg:inline-grid lg:grid-cols-4 xl:grid-cols-5 md:p-6 max-md:mb-6">
                             <div className="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
                                 <HTML className="w-16 h-16" />
@@ -772,7 +772,7 @@ const OurTechnologies = () => {
 
 const WhyWeChoose = () => {
     return (
-        <div className="p-6 bg-white">
+        <div className="p-6 py-12 bg-white">
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <span className="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
@@ -859,6 +859,87 @@ const WhyWeChoose = () => {
     );
 };
 
+const GetQuote = () => {
+    return (
+        <div className="relative py-16 ">
+            <div
+                aria-hidden="true"
+                className="absolute inset-0 h-max w-full m-auto grid grid-cols-2 -space-x-52 opacity-40"
+            >
+                <div className="blur-[106px] h-56 bg-gradiant-6"></div>
+                <div className="blur-[106px] h-32 bg-gradiant-6"></div>
+            </div>
+            <div className="max-w-7xl mx-auto px-6 md:px-12 xl:px-6">
+                <div className="relative">
+                    <div className="flex items-center justify-center -space-x-2">
+                        <Image
+                            src="/images/avatar-1.jpg"
+                            alt="G"
+                            width={200}
+                            height={200}
+                            className="absolute transform translate-x-24 ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"
+                            priority
+                        />
+                        <Image
+                            src="/images/avatar-2.jpg"
+                            alt="G"
+                            width={200}
+                            height={200}
+                            className="absolute transform -translate-x-24 -ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"
+                            priority
+                        />
+                        <Image
+                            src="/images/avatar-3.jpg"
+                            alt="G"
+                            width={200}
+                            height={200}
+                            className="absolute transform -translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"
+                            priority
+                        />
+                        <Image
+                            src="/images/avatar-4.jpg"
+                            alt="G"
+                            width={200}
+                            height={200}
+                            className="absolute transform translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"
+                            priority
+                        />
+                        <Image
+                            src="/images/avatar-5.jpg"
+                            alt="G"
+                            width={200}
+                            height={200}
+                            className="rounded-full w-20 h-20 md:w-24 md:h-24 border-4 border-white relative"
+                            priority
+                        />
+                    </div>
+
+                    <div className="mt-6 m-auto space-y-6 md:w-8/12 lg:w-7/12">
+                        <h2 className="text-center font-heading mt-6 text-3xl leading-8 font-semibold tracking-tight capitalize text-[#233888] sm:text-4xl">
+                            {"Get in Touch"}
+                        </h2>
+                        <p className="text-center text-gray-600 text-md tracking-wide leading-8">
+                            {
+                                "We’re always happy to connect! Whether you have a question, feedback, or just want to say hi, don’t hesitate to get in touch with us."
+                            }
+                        </p>
+                        <div className="flex justify-center items-center">
+                            <a
+                                href="#"
+                                className="relative flex h-12 w-full text-md items-center justify-center px-8 before:absolute before:inset-0 before:rounded-full before:bg-[#233888] before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
+                            >
+                                <span className="relative text-base font-semibold text-white">
+                                    {"Get Quote"}
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 export default function Home() {
     return (
         <html lang="en">
@@ -891,6 +972,7 @@ export default function Home() {
                     <OurServices />
                     <OurTechnologies />
                     <WhyWeChoose />
+                    <GetQuote />
                 </main>
                 <Footer />
             </body>
