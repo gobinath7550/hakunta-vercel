@@ -102,8 +102,8 @@ const MainBanner = () => {
     return (
         <div className="relative">
             <BackgroundAnimation />
-            <div className="p-8 md:p-10 flex items-center justify-center max-w-7xl m-auto">
-                <div className="p-8 md:p-10 md:px-28 lg:p-16 lg:px-36 text-white text-center rounded-md">
+            <div className="p-6 md:p-10 flex items-center justify-center max-w-7xl m-auto">
+                <div className="p-6 md:p-10 md:px-28 lg:p-16 lg:px-36 text-white text-center rounded-md">
                     <h2 className="text-[2.4rem] lg:text-[3.2rem] bg-gradiant-2 font-bold capitalize tracking-wide text-transparent bg-clip-text drop-shadow-md">
                         {"Simplifying IT, amplifying impact."}
                     </h2>
@@ -136,17 +136,17 @@ const MainBanner = () => {
     );
 };
 
-const OurVision = () => {
+const OurGoals = () => {
     return (
         <div className="max-w-7xl m-auto">
-            <div className="p-8 px-12 pb-0 text-center">
+            <div className="p-6 text-center">
                 <h2 className="my-4 font-bold text-[1.8rem] lg:text-[2.2rem] relative after:content-[''] after:absolute after:bg-[#60dd8e] after:w-32 after:-bottom-2 after:h-1 after:left-1/2 after:-translate-x-1/2">
                     <span className="text-[#233888]">
                         {"Our Primary Goals"}
                     </span>
                 </h2>
             </div>
-            <div className="p-8 px-12 pb-12 relative mt-8">
+            <div className="p-6 pt-0 relative">
                 <div className="absolute inset-x-0 hidden xl:px-44 top-8 lg:block md:px-20 lg:px-28">
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -216,16 +216,59 @@ const OurVision = () => {
     );
 };
 
+const AboutUsCaption = () => {
+    return (
+        <div className="bg-[#e5e6e3]">
+            <div className="max-w-7xl m-auto">
+                <div className="md:flex items-center max-w-screen-xl">
+                    <div className="md:w-1/2 p-6">
+                        <div className="image object-center text-center">
+                            <Image
+                                src="/images/about-us-1.webp"
+                                alt="G"
+                                width={500}
+                                height={500}
+                                className=""
+                                priority
+                            />
+                        </div>
+                    </div>
+                    <div className="md:w-1/2 p-6">
+                        <div className="text">
+                            <h2 className="my-4 font-bold text-[1.8rem] lg:text-[2.2rem] relative after:content-[''] after:absolute after:bg-[#60dd8e] after:w-32 after:-bottom-2 after:h-1 after:left-0">
+                                <span className="text-[#233888]">
+                                    {"About Our Company"}
+                                </span>
+                            </h2>
+                            <p className="mt-4 text-gray-600 text-md tracking-wide leading-8">
+                                {
+                                    "Hakunta is an Information Technology company based in Chennai, India, specializing in delivering solution-focused services and tailored software development across various business sectors. Our primary goal is to ensure that client organizations benefit from the most effective solutions, paired with exceptional support and service. We pride ourselves on offering affordable, high-quality solutions delivered promptly to meet customer needs."
+                                }
+                            </p>
+                            <a
+                                href="/about-us"
+                                className="mt-8 transition-all w-fit after:transition-all text-[#3d53aa] relative after:content-[''] after:absolute after:bg-[#3d53aa] after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
+                            >
+                                <span>{"Learn more"}</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
+
 const OurServices = () => {
     return (
         <div className="max-w-7xl m-auto">
-            <div className="p-8 px-12 text-center">
+            <div className="p-6 text-center">
                 <h2 className="my-4 font-bold text-[1.8rem] lg:text-[2.2rem] relative after:content-[''] after:absolute after:bg-[#60dd8e] after:w-32 after:-bottom-2 after:h-1 after:left-1/2 after:-translate-x-1/2">
                     <span className="text-[#233888]">{"Our Services"}</span>
                 </h2>
             </div>
-            <div className="flex flex-wrap p-8 pt-0">
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+            <div className="flex flex-wrap p-6 pt-0">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -262,7 +305,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -302,7 +345,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -372,7 +415,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -539,7 +582,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -573,7 +616,7 @@ const OurServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-full px-4 md:w-1/2 lg:w-1/3">
+                <div className="w-full md:px-4 md:w-1/2 lg:w-1/3">
                     <div className="mb-9 rounded-xl py-8 px-7 shadow-md transition-all hover:shadow-lg sm:p-9 lg:px-6 xl:px-9 border-[1px] border-[#eaeaea] hover:border-[#233888]">
                         <div className="mx-auto mb-7 inline-block">
                             <svg
@@ -650,55 +693,12 @@ const OurServices = () => {
     );
 };
 
-const AboutUsCaption = () => {
-    return (
-        <div className="bg-[#e5e6e3]">
-            <div className="max-w-7xl m-auto">
-                <div className="md:flex items-center max-w-screen-xl">
-                    <div className="md:w-1/2 p-8 px-12">
-                        <div className="image object-center text-center">
-                            <Image
-                                src="/images/about-us-1.webp"
-                                alt="G"
-                                width={500}
-                                height={500}
-                                className=""
-                                priority
-                            />
-                        </div>
-                    </div>
-                    <div className="md:w-1/2 p-8 px-12">
-                        <div className="text">
-                            <h2 className="my-4 font-bold text-[1.8rem] lg:text-[2.2rem] relative after:content-[''] after:absolute after:bg-[#60dd8e] after:w-32 after:-bottom-2 after:h-1 after:left-0">
-                                <span className="text-[#233888]">
-                                    {"About Our Company"}
-                                </span>
-                            </h2>
-                            <p className="mt-4 text-gray-600 text-md tracking-wide leading-8">
-                                {
-                                    "Hakunta is an Information Technology company based in Chennai, India, specializing in delivering solution-focused services and tailored software development across various business sectors. Our primary goal is to ensure that client organizations benefit from the most effective solutions, paired with exceptional support and service. We pride ourselves on offering affordable, high-quality solutions delivered promptly to meet customer needs."
-                                }
-                            </p>
-                            <a
-                                href="/about-us"
-                                className="mt-8 transition-all w-fit after:transition-all text-[#3d53aa] relative after:content-[''] after:absolute after:bg-[#3d53aa] after:w-0 hover:after:w-full after:bottom-0 after:h-[1px] after:left-0 flex gap-2 items-center justify-center group"
-                            >
-                                <span>{"Learn more"}</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
-};
-
 const OurTechnologies = () => {
     return (
         <div className="bg-[#233888]">
             <div className="max-w-7xl m-auto">
                 <div className="md:flex items-center">
-                    <div className="md:w-1/2 p-8 px-12">
+                    <div className="md:w-1/2 p-6">
                         <div className="text lg:p-6">
                             <h2 className="my-4 font-bold text-[1.8rem] lg:text-[2.2rem] relative after:content-[''] after:absolute after:bg-[#60dd8e] after:w-32 after:-bottom-2 after:h-1 after:left-0">
                                 <span className="text-white">
@@ -712,7 +712,7 @@ const OurTechnologies = () => {
                             </p>
                         </div>
                     </div>
-                    <div className="md:w-1/2 p-8 px-12">
+                    <div className="md:w-1/2 p-6 pt-0">
                         <div className="flex justify-center flex-wrap gap-5 lg:inline-grid lg:grid-cols-4 xl:grid-cols-5 md:p-6 max-md:mb-6">
                             <div className="bg-white p-2 rounded-lg shadow-lg flex justify-center items-center">
                                 <HTML className="w-16 h-16" />
@@ -772,7 +772,7 @@ const OurTechnologies = () => {
 
 const WhyWeChoose = () => {
     return (
-        <div className="p-8 px-12 bg-white">
+        <div className="p-6 bg-white">
             <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <div className="lg:text-center">
                     <span className="font-heading mb-4 bg-orange-100 text-orange-800 px-4 py-2 rounded-lg md:w-64 md:mx-auto text-xs font-semibold tracking-widest uppercase title-font">
@@ -886,7 +886,7 @@ export default function Home() {
                 <Header />
                 <main className="relative">
                     <MainBanner />
-                    <OurVision />
+                    <OurGoals />
                     <AboutUsCaption />
                     <OurServices />
                     <OurTechnologies />
