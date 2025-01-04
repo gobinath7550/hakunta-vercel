@@ -104,9 +104,12 @@ const Typewriter = () => {
 
 const MainBanner = () => {
     return (
-        <div className="relative" data-aos="fade-up">
+        <div className="relative">
             <BackgroundAnimation />
-            <div className="p-6 md:p-10 flex items-center justify-center max-w-7xl m-auto">
+            <div
+                className="p-6 md:p-10 flex items-center justify-center max-w-7xl m-auto"
+                data-aos="fade-up"
+            >
                 <div className="p-6 md:p-10 md:px-28 lg:p-16 lg:px-36 text-white text-center rounded-md">
                     <h2 className="text-[2.4rem] lg:text-[3.2rem] bg-gradiant-2 font-bold capitalize tracking-wide text-transparent bg-clip-text drop-shadow-md">
                         {"Simplifying IT, amplifying impact."}
