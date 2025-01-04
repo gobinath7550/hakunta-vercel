@@ -104,29 +104,20 @@ const Typewriter = () => {
 
 const MainBanner = () => {
     return (
-        <div className="relative">
+        <div className="relative" data-aos="fade-up">
             <BackgroundAnimation />
             <div className="p-6 md:p-10 flex items-center justify-center max-w-7xl m-auto">
                 <div className="p-6 md:p-10 md:px-28 lg:p-16 lg:px-36 text-white text-center rounded-md">
-                    <h2
-                        className="text-[2.4rem] lg:text-[3.2rem] bg-gradiant-2 font-bold capitalize tracking-wide text-transparent bg-clip-text drop-shadow-md"
-                        data-aos="fade-up"
-                    >
+                    <h2 className="text-[2.4rem] lg:text-[3.2rem] bg-gradiant-2 font-bold capitalize tracking-wide text-transparent bg-clip-text drop-shadow-md">
                         {"Simplifying IT, amplifying impact."}
                     </h2>
                     <Typewriter />
-                    <p
-                        className="text-md tracking-wide leading-8"
-                        data-aos="fade-up"
-                    >
+                    <p className="text-md tracking-wide leading-8">
                         {
                             "With a focus on high-quality development practices, we empower clients across industries to harness the power of digital technology and achieve operational excellence."
                         }
                     </p>
-                    <div
-                        className="mt-12 flex items-center justify-center gap-10 text-[0.9rem]"
-                        data-aos="fade-up"
-                    >
+                    <div className="mt-12 flex items-center justify-center gap-10 text-[0.9rem]">
                         <a
                             href="/contact-us"
                             className="group p-5 cursor-pointer relative font-light border-0 flex items-center justify-center bg-transparent text-white h-auto w-[170px] overflow-hidden transition-all duration-100"
