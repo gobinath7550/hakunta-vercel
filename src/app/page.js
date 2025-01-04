@@ -60,7 +60,7 @@ const BackgroundAnimation = () => {
 };
 
 const Typewriter = () => {
-    const words = ["Simplifying IT, amplifying impact."];
+    const words = ["Innovative", "Reliable", "Scalable"];
     const [currentWord, setCurrentWord] = useState("");
     const [i, setI] = useState(0);
     const [j, setJ] = useState(0);
@@ -90,9 +90,13 @@ const Typewriter = () => {
     }, [j, i, isDeleting, words]);
 
     return (
-        <div className="w-full h-full flex justify-center items-center">
-            <h2 id="typewriter" className="font-bold">
-                {currentWord}
+        <div className="relative my-20 md:my-16 w-full h-full flex justify-center items-center">
+            <h2
+                id="typewriter"
+                className="absolute text-[1.6rem] lg:text-[2.2rem] text-white font-bold"
+            >
+                <span className="text-[#ffedd5]">{currentWord}</span>
+                <span className="ml-2">{"Technology Services"}</span>
             </h2>
         </div>
     );
@@ -107,9 +111,7 @@ const MainBanner = () => {
                     <h2 className="text-[2.4rem] lg:text-[3.2rem] bg-gradiant-2 font-bold capitalize tracking-wide text-transparent bg-clip-text drop-shadow-md">
                         {"Simplifying IT, amplifying impact."}
                     </h2>
-                    <div className="mt-10 flex items-center justify-center">
-                        <TypewriterWithCursor />
-                    </div>
+                    <Typewriter />
                     <p className="mt-10 px-6 text-md tracking-wide leading-8">
                         {
                             "With a focus on high-quality development practices, we empower clients across industries to harness the power of digital technology and achieve operational excellence."
