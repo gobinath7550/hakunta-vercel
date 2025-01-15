@@ -1,7 +1,5 @@
 import {
     XTwitter,
-    LinkArrow,
-    Youtube,
     Facebook,
     Instagram,
     Call,
@@ -29,7 +27,7 @@ export default function Footer() {
                                 </span>
                             </a>
                         </div>
-                        <div className="max-w-md pr-16 text-md text-gray-200">
+                        <div className="max-w-md md:pr-16 text-md text-gray-200">
                             {
                                 "Enhance productivity and efficiency with cutting-edge intelligence solutions for your business operations"
                             }
@@ -56,14 +54,6 @@ export default function Footer() {
                                 target="_blank"
                                 className="text-gray-200 hover:text-gray-200 border-[1px] border-[#7e7e7e] hover:border-white transition-all p-2 rounded-lg"
                             >
-                                <span className="sr-only">{"Youtube"}</span>
-                                <Youtube className="fill-white h-6 w-6" />
-                            </a>
-                            <a
-                                href=""
-                                target="_blank"
-                                className="text-gray-200 hover:text-gray-200 border-[1px] border-[#7e7e7e] hover:border-white transition-all p-2 rounded-lg"
-                            >
                                 <span className="sr-only">{"Facebook"}</span>
                                 <Facebook className="fill-white h-6 w-6" />
                             </a>
@@ -74,14 +64,6 @@ export default function Footer() {
                             >
                                 <span className="sr-only">{"Instagram"}</span>
                                 <Instagram className="fill-white h-6 w-6" />
-                            </a>
-                            <a
-                                href=""
-                                target="_blank"
-                                className="text-gray-200 hover:text-gray-200 border-[1px] border-[#7e7e7e] hover:border-white transition-all p-2 rounded-lg"
-                            >
-                                <span className="sr-only">{"Email"}</span>
-                                <Email className="fill-none stroke-white h-6 w-6" />
                             </a>
                         </div>
                     </div>
@@ -94,7 +76,7 @@ export default function Footer() {
                                 <ul role="list" className="mt-6 space-y-4">
                                     <li>
                                         <a
-                                            href="/aboutus"
+                                            href="/about-us"
                                             className="text-md leading-6 text-gray-300 hover:text-gray-50"
                                         >
                                             {"About Us"}
@@ -153,31 +135,25 @@ export default function Footer() {
                         <div className="grid grid-cols-1 gap-8">
                             <div className="mt-10 md:mt-0">
                                 <h3 className="text-md font-semibold leading-6 text-white">
-                                    {"Use Cases"}
+                                    {"Contact"}
                                 </h3>
                                 <ul role="list" className="mt-6 space-y-4">
-                                    <li>
+                                    <li className="flex gap-2">
+                                        <Email className="fill-none stroke-white h-6 w-6" />
                                         <a
                                             href="/predictiveanalysis"
                                             className="text-md leading-6 text-gray-300 hover:text-gray-50"
                                         >
-                                            {"Predictive Analysis"}
+                                            {"contact@hakunta.com"}
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className="flex gap-2 ml-1">
+                                        <Call className="fill-white stroke-white h-5 w-5" />
                                         <a
                                             href="/customerexperience"
                                             className="text-md leading-6 text-gray-300 hover:text-gray-50"
                                         >
-                                            {"Customer Experience"}
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="/automation"
-                                            className="text-md leading-6 text-gray-300 hover:text-gray-50"
-                                        >
-                                            {"Automation"}
+                                            {"+91 9878987890"}
                                         </a>
                                     </li>
                                 </ul>
@@ -185,7 +161,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <div className="mt-16 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24">
+                <div className="mt-10 border-t border-gray-400/30 pt-8 sm:mt-20 lg:mt-24">
                     <div className="text-md text-center text-white">
                         {"Copyright © 2024"}
                         <a rel="noopener" href="/">
